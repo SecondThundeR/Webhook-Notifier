@@ -1,0 +1,14 @@
+{
+  "name": "webhook-notifier",
+  "version": "1.0.0",
+  "description": "Webhook Notifier for secondthunder-js-bot",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "SecondThundeR",
+  "license": "MIT",
+  "dependencies": {
+    "discord-webhook-node": "^1.1.8"
+  }
+}
