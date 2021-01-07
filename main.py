@@ -5,8 +5,8 @@ WEBHOOK_URL = ''
 WEBHOOK_USERNAME = ''
 WEBHOOK_AVATAR_URL = ''
 
-file = open(FILENAME, 'r', encoding='utf-8')
-CONTENT = file.read()
+with open(FILENAME, 'r', encoding='utf-8') as file:
+    CONTENT = file.read()
 file.close()
 
 discord = Discord(url=WEBHOOK_URL)
